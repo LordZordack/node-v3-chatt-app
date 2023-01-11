@@ -1,0 +1,24 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "real-time chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -e js,hbs,cs,html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mapley",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "bad-words": "^3.0.0",
+    "chalk": "^5.0.1",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
